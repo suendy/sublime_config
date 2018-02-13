@@ -64,6 +64,7 @@ git checkout . && git clean -xdf 清空未add的文件
 
 # Git常用操作命令：
 ## 1) 远程仓库相关命令
+
 检 出 仓  库：$ git clone git://github.com/jquery/jquery.git
 查看远程仓库：$ git remote -v
 添加远程仓库：$ git remote add [name] [url]
@@ -77,6 +78,7 @@ $git push origin test:master         // 提交本地test分支作为远程的mas
 $git push origin test:test              // 提交本地test分支作为远程的test分支
  
 ## 2）分支(branch)操作相关命令
+
 查看本地分支：$ git branch
 查看远程分支：$ git branch -r
 创建本地分支：$ git branch [name] ----注意新分支创建后不会自动切换为当前分支
@@ -93,6 +95,7 @@ $rm .git/index
 $git clean -fdx
  
 ## 3）版本(tag)操作相关命令
+
 查看版本：$ git tag
 创建版本：$ git tag [name]
 删除版本：$ git tag -d [name]
@@ -104,6 +107,7 @@ $git clean -fdx
 创建带注释的tag：$ git tag -a [name] -m 'yourMessage'
  
 ## 4) 子模块(submodule)相关操作命令
+
 添加子模块：$ git submodule add [url] [path]
    如：$git submodule add git://github.com/soberh/ui-libs.git src/main/webapp/ui-libs
 初始化子模块：$ git submodule init  ----只在首次检出仓库时运行一次就行
@@ -116,6 +120,7 @@ $git clean -fdx
 - 4) 手动删除子模块残留的目录
  
 ## 5）忽略一些文件、文件夹不提交
+
 在仓库根目录下创建名称为".gitignore"的文件，写入不需要的文件夹名或文件，每个元素占一行即可，如
 target
 bin
