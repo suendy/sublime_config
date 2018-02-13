@@ -190,16 +190,18 @@ git push -u origin master
 
 
 一、查看远程分支
-	使用如下Git命令查看所有远程分支：
-	git branch -r
+
+使用如下Git命令查看所有远程分支：
+git branch -r
 
 二、拉取远程分支并创建本地分支
-	方法一
-	使用如下命令：
-	git checkout -b 本地分支名x origin/远程分支名x
-	使用该方式会在本地新建分支x，并自动切换到该本地分支x。
 
-	方式二
-	使用如下命令：
-	git fetch origin 远程分支名x:本地分支名x
-	使用该方式会在本地新建分支x，但是不会自动切换到该本地分支x，需要手动checkout。
+方法一
+使用如下命令：
+git checkout -b 本地分支名x origin/远程分支名x
+使用该方式会在本地新建分支x，并自动切换到该本地分支x。
+
+方式二
+使用如下命令：
+git fetch origin 远程分支名x:本地分支名x
+使用该方式会在本地新建分支x，但是不会自动切换到该本地分支x，需要手动checkout。
