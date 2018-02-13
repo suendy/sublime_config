@@ -1,0 +1,8 @@
+{
+	"Packages/User/SublimeLinter/Monokai (SL).tmTheme":
+	{
+		"content": ".string { color: #E6DB74;  } .support.constant { color: #66D9EF;  } .variable.other.dollar.only.js { color: #F92672;  } .constant.language { color: #AE81FF;  } .invalid.deprecated { background-color: #AE81FF; color: #F8F8F0;  } .entity.name(entity.name.filename { color: #A6E22E;  } .variable.language { font-style: italic; color: #FD971F;  } .storage { color: #F92672;  } .variable.function { color: #66D9EF;  } .entity.other.inherited-class { text-decoration: underline; font-style: italic; color: #A6E22E;  } .constant.character { color: #AE81FF;  } html { background-color: #40413b; color: #F8F8F2;  } .entity.other.attribute-name { color: #A6E22E;  } .markup.inserted { color: #A6E22E;  } .entity.name.tag { color: #F92672;  } .meta.structure.dictionary.json { color: #CFCFC2;  } .storage.type { font-style: italic; color: #66D9EF;  } .comment { color: #75715E;  } .meta.diff { color: #75715E;  } .string.unquoted.yaml { color: #F8F8F2;  } .variable.parameter(source.c { font-style: italic; color: #FD971F;  } .markup.deleted { color: #F92672;  } .markup.changed { color: #E6DB74;  } .constant.numeric { color: #AE81FF;  } .support.function { color: #66D9EF;  } .constant.numeric.line-number.find-in-filesmatch { color: #AE81FFA0;  } .keyword(source.c { color: #F92672;  } .support.type { font-style: italic; color: #66D9EF;  } .entity.name.filename { color: #E6DB74;  } .invalid { background-color: #F92672; color: #F8F8F0;  } ",
+		"hash": "cf7cb5d6f6d6b5f593a9a9496008e921",
+		"time": 1499742863.23
+	}
+}

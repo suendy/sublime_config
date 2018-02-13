@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"DocBlockr",
+		"Emmet",
+		"Focus File on Sidebar",
+		"Markdown Preview",
+		"Package Control",
+		"PHP Syntax Checker",
+		"Phpcs",
+		"Project PHP ClassBrowser",
+		"SublimeLinter",
+		"SublimeLinter-annotations"
+	]
+}
